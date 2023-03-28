@@ -7,6 +7,6 @@ node {
                pwd'''
      }
     stage ('Deploy') {
-       //
+       echo 'code deployed'
      }
     }
