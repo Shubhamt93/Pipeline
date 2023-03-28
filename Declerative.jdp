@@ -6,6 +6,6 @@ pipeline  {
                 //
             }
         }
-        stage ()
+        stage ('Test')
     }
 }
