@@ -4,7 +4,8 @@ node {
      }
     stage ('Build') {
         sh '''ls
-               pwd'''
+               pwd
+                  '''
      }
     stage ('Deploy') {
        echo 'code deployed'
