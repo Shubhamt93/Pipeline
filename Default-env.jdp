@@ -1,7 +1,7 @@
 pipeline  {
     agent any
     stages {
-        stage ()
+        stage ('Pull-code')
         stage ('Print-Env')  {
              steps  {
                  echo "Build Id is ${env.BUILD_ID}"
