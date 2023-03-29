@@ -9,7 +9,7 @@ pipeline  {
         stage ('Print-Env')  {
              steps  {
                  echo "Build Id is ${env.BUILD_ID}"
-                 echo "Node Label is ${NODE_LABELS}"
+                 echo "Node Label is ${env.NODE_LABELS}"
                  echo "Git Commit is ${GIT_COMMIT}"
                  echo "Git Branch is ${GIT_BRANCH}"
              }   
