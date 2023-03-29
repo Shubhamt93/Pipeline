@@ -8,7 +8,7 @@ pipeline  {
         }
         stage ('Print-Env')  {
              step  {
-                 echo ""
+                 echo "Build Id is"
              }   
         }
     }
