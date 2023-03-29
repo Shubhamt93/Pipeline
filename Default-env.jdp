@@ -2,7 +2,9 @@ pipeline  {
     agent any
     stages {
         stage ('Pull-code') {
-            steps { }
+            steps {
+                
+            }
         }
         stage ('Print-Env')  {
              steps  {
