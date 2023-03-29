@@ -6,6 +6,8 @@ pipeline  {
                 sh 'printenv'
             }
         }
-        stage ('Print-Env') 
+        stage ('Print-Env')  {
+
+        }
     }
 }
