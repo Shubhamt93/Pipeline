@@ -1,5 +1,5 @@
 freeStyleJob('Shubham-01') {
     steps {
-        shell()
+        shell('echo hello world')
     }
 }
