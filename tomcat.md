@@ -26,7 +26,6 @@ ENKINS
 
 <user username="tomcat" password="redhat" roles="admin-gui,manager-gui, manager-stat
 
-9
 
 manager-script, manager-jmx"/>
 
