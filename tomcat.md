@@ -1,10 +1,4 @@
 opt/apache/conf/tomcat-user.xml'**
-
-2
-
-3
-
-
 <role rolename="admin-gui"/> <role rolename="manager-gui"/>
 <role rolename="manager-status"/>
 <role rolename="manager-script"/>
