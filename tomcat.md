@@ -13,9 +13,6 @@ opt/apache/conf/tomcat-user.xml'**
 ryseedb3.g...
 
 ENKINS
-
-6
-
 <role rolename="manager-script"/>
 <role rolename="manager-jmx"/>
 <user username="tomcat" password="redhat" roles="admin-gui,manager-gui, manager-stat
