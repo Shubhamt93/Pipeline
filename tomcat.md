@@ -17,13 +17,7 @@ ENKINS
 6
 
 <role rolename="manager-script"/>
-
-7
-
 <role rolename="manager-jmx"/>
-
-8
-
 <user username="tomcat" password="redhat" roles="admin-gui,manager-gui, manager-stat
 manager-script, manager-jmx"/>
 
