@@ -30,14 +30,6 @@ ENKINS
 
 manager-script, manager-jmx"/>
 
-10
-
-11
-
-12
-
-13
-
 'vim /opt/apache-tomcat-8.5.51/webapps/manager/META-INF/context.xml
 
 <!--Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" / -->
