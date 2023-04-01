@@ -1,0 +1,43 @@
+opt/apache/conf/tomcat-user.xml'**
+
+2
+
+3
+
+4
+
+<role rolename="admin-gui"/> <role rolename="manager-gui"/>
+
+<role rolename="manager-status"/>
+
+ryseedb3.g...
+
+ENKINS
+
+6
+
+<role rolename="manager-script"/>
+
+7
+
+<role rolename="manager-jmx"/>
+
+8
+
+<user username="tomcat" password="redhat" roles="admin-gui,manager-gui, manager-stat
+
+9
+
+manager-script, manager-jmx"/>
+
+10
+
+11
+
+12
+
+13
+
+'vim /opt/apache-tomcat-8.5.51/webapps/manager/META-INF/context.xml
+
+<!--Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" / -->
