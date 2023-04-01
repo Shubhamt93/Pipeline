@@ -4,15 +4,9 @@ opt/apache/conf/tomcat-user.xml'**
 
 3
 
-4
 
 <role rolename="admin-gui"/> <role rolename="manager-gui"/>
-
 <role rolename="manager-status"/>
-
-ryseedb3.g...
-
-ENKINS
 <role rolename="manager-script"/>
 <role rolename="manager-jmx"/>
 <user username="tomcat" password="redhat" roles="admin-gui,manager-gui, manager-stat
