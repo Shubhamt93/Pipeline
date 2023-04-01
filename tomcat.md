@@ -1,4 +1,4 @@
-'''opt/apache/conf/tomcat-user.xml'''
+'''vim /opt/apache/conf/tomcat-user.xml'''
 
 <role rolename="admin-gui"/> 
 <role rolename="manager-gui"/>
