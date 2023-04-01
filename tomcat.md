@@ -25,8 +25,6 @@ ENKINS
 8
 
 <user username="tomcat" password="redhat" roles="admin-gui,manager-gui, manager-stat
-
-
 manager-script, manager-jmx"/>
 
 'vim /opt/apache-tomcat-8.5.51/webapps/manager/META-INF/context.xml
