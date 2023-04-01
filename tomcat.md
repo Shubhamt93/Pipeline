@@ -5,7 +5,7 @@
 <role rolename="manager-status"/>
 <role rolename="manager-script"/>
 <role rolename="manager-jmx"/>
-<user username="tomcat" password="redhat" roles="admin-gui,manager-gui, manager-stats,manager-script, manager-jmx"/>
+<user username="tomcat" password="redhat" roles="admin-gui,manager-gui, manager-stats, manager-script, manager-jmx"/>
 
 
 
